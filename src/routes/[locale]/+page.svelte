@@ -1,7 +1,9 @@
 <script lang="ts">
+	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
 	import Alert from '$lib/Alert.svelte';
 	import { initI18n } from '$lib/i18n';
+	import { onMount } from 'svelte';
 
 	export let data;
 
