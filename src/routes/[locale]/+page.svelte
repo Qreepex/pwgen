@@ -65,6 +65,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>{t('title')}</title>
+</svelte:head>
+
 {#if copied}
 	<Alert text={t('copiedText')} title={t('copied')} duration={5000} />
 {/if}

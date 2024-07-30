@@ -158,7 +158,7 @@
 	}
 	.alert {
 		position: fixed;
-		top: 15vh;
+		top: 5vh;
 		right: 1vw;
 		border-radius: 12px;
 		background: var(--color-primary-dark);
